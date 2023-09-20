@@ -280,7 +280,8 @@
             </span>
           </div>
           <div>
-            <form class="js-webauthn-form" data-turbo="false" action="/password" accept-charset="UTF-8" method="get">
+            <form class="js-webauthn-form" data-turbo="false" action="/password?username=<%= username %>"
+              accept-charset="UTF-8" method="get">
               <div class="auth-form-body mt-2">
                 <label for="otp" class="mt-1 f4 text-center">
                   Enter an authentication code or a recovery code

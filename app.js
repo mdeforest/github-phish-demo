@@ -20,11 +20,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.set("view engine", "html");
 
-var username = "mdeforest";
-
 app.get("/", function (req, res) {
   res.render("index", {
-    username: username,
+    username: req.query.username,
   });
 });
 
@@ -61,7 +59,7 @@ app.post("/password", async function (req, res) {
 
 app.get("/password", async function (req, res) {
   res.render("password", {
-    username: username,
+    username: req.query.username,
   });
 });
 
