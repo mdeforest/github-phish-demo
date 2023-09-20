@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="false" data-turbo-loaded="" data-arp-injected="true">
+
+<head>
+  <style type="text/css">
+    .turbo-progress-bar {
+      position: fixed;
+      display: block;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: #0076ff;
+      z-index: 2147483647;
+      transition:
+        width 300ms ease-out,
+        opacity 150ms 150ms ease-in;
+      transform: translate3d(0, 0, 0);
+    }
+  </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+    .turbo-progress-bar {
+      position: fixed;
+      display: block;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: #0076ff;
+      z-index: 2147483647;
+      transition:
+        width 300ms ease-out,
+        opacity 150ms 150ms ease-in;
+      transform: translate3d(0, 0, 0);
+    }
+  </style>
+  <link rel="dns-prefetch" href="https://github.githubassets.com/">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com/" crossorigin="">
+  <link rel="preconnect" href="https://avatars.githubusercontent.com/">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./index_assets/light-a09cef873428.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./index_assets/dark-5d486a4ede8e.css">
+  <link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/dark_dimmed-27c8d635e4e5.css">
+  <link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/dark_high_contrast-8438e75afd36.css">
+  <link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/dark_colorblind-bf5665b96628.css">
+  <link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/light_colorblind-c414b5ba1dce.css">
+  <link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/light_high_contrast-e5868b7374db.css">
+  <link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/light_tritanopia-299ac9c64ec0.css">
+  <link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/dark_tritanopia-3a26e78ad0ff.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./index_assets/primer-primitives-6143c8f97ed1.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./index_assets/primer-047ee6293fcd.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./index_assets/global-0622c18dc71f.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./index_assets/github-eb793512a19a.css">
+  <script type="application/json"
+    id="client-env">{"locale":"en","featureFlags":["failbot_handle_non_errors","fix_react_title","geojson_azure_maps","image_metric_tracking","turbo_experiment_risky","use_scroll_restoration","sample_network_conn_type"]}</script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/wp-runtime-cb22000e0d2f.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_dompurify_dist_purify_js-64d590970fa6.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-a4c183-18bf85b8e9f4.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/ui_packages_soft-nav_soft-nav_ts-df17d5597d8f.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/environment-509b58e05b9f.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_primer_behaviors_dist_esm_focus-zone_js-d55308df5023.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_relative-time-element_dist_index_js-99e288659d4f.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-d2119e75298d.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_auto-complete-element-5b3870-9b38c0812424.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-8873b7-5771678648e0.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-bdc901-0fe41db0acb6.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/github-elements-1ff8b48eef26.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/element-registry-631c5146145f.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_hydro-analytics-client_dist_analytics-client_js-node_modules_gith-f3aee1-fd3c22610e40.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_morphdom_dist_morphdom-esm_js-b1fdd7158cf0.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-4aefce0fc3c8.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-1f4793023fcd.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_scroll-anchoring_dist_scro-52dc4b-e1e33bfc0b7e.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-7a8e2b-f036384374ea.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/app_assets_modules_github_details-dialog_ts-app_assets_modules_github_fetch_ts-9ca164041015.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/app_assets_modules_github_updatable-content_ts-ui_packages_hydro-analytics_hydro-analytics_ts-e4da304b75e7.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/app_assets_modules_github_onfocus_ts-app_assets_modules_github_sticky-scroll-into-view_ts-b88dcdb1ae32.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_sso_ts-ui_packages-7d50ad-9491f2be61ee.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-2e2258-f7b8ad0ef997.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-f22ac6b94445.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/app_assets_modules_github_blob-anchor_ts-app_assets_modules_github_filter-sort_ts-app_assets_-c96432-b9f980134541.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/behaviors-7436dd4fb020.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-fe0b8ccc90a5.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/notifications-global-f57687007bfc.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_memoize_dist_esm_in-687f35-d131f0b6de8e.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/sessions-9bc1a064363e.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="./index_assets/signup-9197d41c14b1.js"></script>
+  <title>Change your password · GitHub</title>
+  <meta name="route-pattern" content="/password_reset/:token(.:format)">
+  <meta name="github-keyboard-shortcuts" content="" data-turbo-transient="true">
+  <link rel="assets" href="https://github.githubassets.com/">
+  <meta name="user-login" content="">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description"
+    content="GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml"
+    title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="og:url" content="https://github.com">
+  <meta property="og:site_name" content="GitHub">
+  <meta property="og:title" content="Build software better, together">
+  <meta property="og:description"
+    content="GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.">
+  <meta property="og:image" content="https://github.githubassets.com/images/modules/open_graph/github-logo.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1200">
+  <meta property="og:image" content="https://github.githubassets.com/images/modules/open_graph/github-mark.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="620">
+  <meta property="og:image" content="https://github.githubassets.com/images/modules/open_graph/github-octocat.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="620">
+  <meta property="twitter:site" content="github">
+  <meta property="twitter:site:id" content="13334762">
+  <meta property="twitter:creator" content="github">
+  <meta property="twitter:creator:id" content="13334762">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="GitHub">
+  <meta property="twitter:description"
+    content="GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 330 million projects.">
+  <meta property="twitter:image:src"
+    content="https://github.githubassets.com/images/modules/open_graph/github-logo.png">
+  <meta property="twitter:image:width" content="1200">
+  <meta property="twitter:image:height" content="1200">
+  <meta name="hostname" content="githubaccount.com">
+  <meta name="expected-hostname" content="githubaccount.com">
+  <meta http-equiv="x-pjax-version" content="a823c8a55d2b6b7858e61b482679493cc9d1f2fbfd7bb51e6ba1b0abca743c85"
+    data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="6d18e9f1b7e1b7b74ec24f6606963878524ad47d47987e738a28862e8d1af9ef"
+    data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="94f9afdf6b59bab9648618debbcf029c823d47e83ef57295ae970fef5ad7ce7a"
+    data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="3cb5075dec90a0f8f085c512a95c202f1f24471fcd499ea7f24fba2ee1f6d639"
+    data-turbo-track="reload">
+  <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="./index_assets/github-eb793512a19a.css">
+  <meta name="turbo-body-classes" content="logged-out env-production page-responsive session-authentication">
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png"
+    href="https://github.githubassets.com/favicons/favicon-dark.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml"
+    href="https://github.githubassets.com/favicons/favicon-dark.svg">
+  <meta name="theme-color" content="#1e2327">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="./manifest.json" crossorigin="anonymous">
+</head>
+
+<body class="logged-out env-production page-responsive session-authentication intent-mouse"
+  style="word-wrap: break-word;">
+  <div data-turbo-body="" class=" logged-out env-production page-responsive session-authentication"
+    style="word-wrap: break-word;">
+    <div class="position-relative js-header-wrapper ">
+      <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
+        <span style="width: 0%;" data-view-component="true"
+          class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
+      </span>
+      <div class="header header-logged-out width-full pt-5 pb-4" role="banner">
+        <div class="container clearfix width-full text-center">
+          <a class="header-logo" href="https://github.com/" aria-label="Homepage"
+            data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+            <svg height="48" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="48" data-view-component="true"
+              class="octicon octicon-mark-github">
+              <path
+                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div hidden="hidden" data-view-component="true" class="js-stale-session-flash flash flash-warn mb-3">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
+          class="octicon octicon-alert">
+          <path
+            d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z">
+          </path>
+        </svg>
+        <div data-view-component="true" class="flash-close">
+          <button id="icon-button-f7e112d1-ca60-4cd0-9672-cebb4fc0106c" type="button" data-view-component="true"
+            class="Button Button--iconOnly Button--invisible Button--medium js-flash-close"
+            aria-labelledby="tooltip-cb89b7fd-f0b5-4566-81a4-256c12319b9d"> <svg aria-hidden="true" height="16"
+              viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
+              class="octicon octicon-x Button-visual">
+              <path
+                d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z">
+              </path>
+            </svg>
+          </button> <tool-tip id="tooltip-cb89b7fd-f0b5-4566-81a4-256c12319b9d"
+            for="icon-button-f7e112d1-ca60-4cd0-9672-cebb4fc0106c" popover="manual" data-direction="s" data-type="label"
+            data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip">Dismiss
+            alert</tool-tip>
+        </div>
+      </div>
+    </div>
+    <div id="start-of-content" class="show-on-focus"></div>
+    <include-fragment class="js-notification-shelf-include-fragment"
+      data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+    <div class="application-main " data-commit-hovercards-enabled="" data-discussion-hovercards-enabled=""
+      data-issue-and-pr-hovercards-enabled="">
+      <main>
+        <div id="login" class="auth-form px-3">
+          <div class="auth-form-header p-0 mb-2">
+            <h1>Two-factor password reset</h1>
+          </div>
+          <div id="js-flash-container" data-turbo-replace="">
+            <template class="js-flash-template"></template>
+          </div>
+          <div data-view-component="true" class="flash-notice sms-success flash">
+            <button type="button" class="flash-close js-flash-close">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                data-view-component="true" class="octicon octicon-x">
+                <path
+                  d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z">
+                </path>
+              </svg>
+            </button>
+            Your authentication code has been sent.
+          </div>
+          <div data-view-component="true" class="sms-error flash flash-warn">
+            <button type="button" class="flash-close js-flash-close">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                data-view-component="true" class="octicon octicon-x">
+                <path
+                  d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z">
+                </path>
+              </svg>
+            </button>
+            <span class="js-sms-error">
+              We were unable to send your authentication code. Please try again or <a class="Link--inTextBlock"
+                href="https://github.com/contact">contact support</a> if the problem persists.
+            </span>
+          </div>
+          <div>
+            <form class="js-webauthn-form" data-turbo="false" action="/password" accept-charset="UTF-8" method="get">
+              <div class="auth-form-body mt-2">
+                <label for="otp" class="mt-1 f4 text-center">
+                  Enter an authentication code or a recovery code
+                  <div data-view-component="true" class="Button-withTooltip">
+                    <a href="https://docs.github.com/articles/recovering-your-account-if-you-lose-your-2fa-credentials"
+                      target="_blank" rel="noopener noreferrer" id="icon-button-29856c94-a07d-4a3e-986c-f7882f0206e1"
+                      data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium mb-1"
+                      aria-labelledby="tooltip-430fc7c8-81f3-4efb-9162-be99bc9001bd"> <svg aria-hidden="true"
+                        height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
+                        class="octicon octicon-question Button-visual">
+                        <path
+                          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.756 2.756 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.103-.067.207-.132.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z">
+                        </path>
+                      </svg>
+                    </a> <tool-tip id="tooltip-430fc7c8-81f3-4efb-9162-be99bc9001bd"
+                      for="icon-button-29856c94-a07d-4a3e-986c-f7882f0206e1" popover="manual" data-direction="s"
+                      data-type="label" data-view-component="true" class="position-absolute sr-only" aria-hidden="true"
+                      role="tooltip"
+                      style="--tool-tip-position-top: 237.6666717529297px; --tool-tip-position-left: 782.0625px;">More
+                      information about Authentication Codes</tool-tip>
+                  </div>
+                </label>
+                <input type="text" name="app_otp" id="otp" value="" autocomplete="off" autofocus="autofocus"
+                  class="form-control input-block js-verification-code-input-auto-submit"
+                  placeholder="XXXXXX OR XXXXX-XXXXX">
+                <button class="btn btn-block " data-disable-with="Verifying…" type="submit">Verify</button>
+                <div class="mt-3">
+                  Open the two-factor authentication app on your device to view your authentication code and verify your
+                  identity.
+                </div>
+              </div>
+            </form>
+          </div>
+          <div data-view-component="true" class="Box mt-3">
+            <div data-view-component="true" class="Box-body p-3">
+              <div class="mb-2">Having problems?</div>
+              <ul class="ml-3">
+                <li>You can also enter a <a class="Link--inTextBlock"
+                    href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods#downloading-your-two-factor-authentication-recovery-codes"
+                    target="_blank">two-factor recovery code</a> above</li>
+                <li>
+                  <form data-turbo="false" action="https://github.com/sessions/recovery/without_password"
+                    accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token"
+                      value="gNlTYuoQ_FfXW9jdCoBeUa1VUDjI3jnS3YEodK5v3R9GIdAS0rPl0UL-Ez14h-bycX-pxtkVH-Pwi4NPaLo58Q">
+                    <input type="hidden" name="reset_token" id="reset_token"
+                      value="AEUAK3ZP2JC6EJ2JR2TLNJDFBDF3JBNFMVWWC2LMXJWWIZLGN5ZGK43UIBTWC3DJNRSW643VNF2GKLTDN5W2KZTPOJRWLQVTOR3W6X3GMFRXI33SL53GK4TJMZUWKZGCWF2HO327MZQWG5DPOJPW2ZLUNBXWJJDON5XGLOTGN5ZGGZLEL53WKYLLL5YGC43TO5XXEZC7OJSXGZLUYI"
+                      autocomplete="off" class="form-control">
+                    Start a
+                    <button type="submit" data-view-component="true" class="Button--link Button--medium Button"> <span
+                        class="Button-content">
+                        <span class="Button-label">2FA recovery request</span>
+                      </span>
+                    </button>
+                    instead
+                  </form>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="footer container-lg p-responsive py-6 mt-6 f6" role="contentinfo">
+      <ul class="list-style-none d-flex flex-justify-center">
+        <li class="mr-3"><a href="https://github.com/site/terms"
+            data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}">Terms</a>
+        </li>
+        <li class="mr-3"><a href="https://github.com/site/privacy"
+            data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}">Privacy</a>
+        </li>
+        <li class="mr-3"><a href="https://docs.github.com/"
+            data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}">Docs</a>
+        </li>
+        <li><a class="Link--secondary" data-ga-click="Footer, go to contact, text:contact"
+            href="https://github.com/contact">Contact GitHub Support</a></li>
+      </ul>
+    </div>
+    <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden="">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
+        class="octicon octicon-alert">
+        <path
+          d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z">
+        </path>
+      </svg>
+      <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"
+          class="octicon octicon-x">
+          <path
+            d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z">
+          </path>
+        </svg>
+      </button>
+      You can’t perform that action at this time.
+    </div>
+    <template id="site-details-dialog"></template>
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+      <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large"
+        style="width:360px;"></div>
+    </div>
+    <template id="snippet-clipboard-copy-button"></template>
+    <template id="snippet-clipboard-copy-button-unpositioned"></template>
+  </div>
+  <div id="js-global-screen-reader-notice" class="sr-only" aria-live="polite"></div>
+  <div id="hl-aria-live-message-container" aria-live="polite" class="visually-hidden"></div>
+  <div id="hl-aria-live-alert-container" role="alert" aria-live="assertive" class="visually-hidden"></div>
+</body>
+
+</html>
