@@ -17,7 +17,7 @@ RUN npm install
 RUN npm install pm2 -g
 
 # Starting our application
-CMD pm2 start /app.js && tail -f /dev/null
+CMD pm2 start /app/app.js && tail -f /dev/null
 
 # Exposing server port
 EXPOSE 3000
